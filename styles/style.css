@@ -1,3 +1,206 @@
-header{
-	background-color:grey;
+
+.container{
+	margin-left:38px;
+
 }
+.main_cont{
+	background-color:#E6E6E6;
+	width:1366px;
+	height:570px;
+}
+header{
+	margin-top:30px;
+	margin-bottom:25px;
+}
+.main_logo {
+	display:inline-block;
+
+}
+.nav_logo {
+	height:30.57px;
+}
+.nav_bar {
+	display:inline-block;
+	margin-left:50px;
+}
+
+.nav_bar_li {
+	display:inline-block;
+}
+.more {
+	margin-left:18px;
+	margin-right:32px;
+}
+.nav_bar a.active {
+	color:#EE4036;
+}
+
+.nav_link {
+	font-family:'ninomtavruli';
+	color:#3D58A6;
+	font-size:22px;
+}
+
+.photo {
+	width:594px;
+}
+
+.main_title{
+	margin-top:43px;
+	margin-bottom:38px;
+	font-size:24px;
+	color:#000000;
+}
+.information{
+	font-family:Roboto;
+}
+
+.title{
+	display:inline-block;
+	padding-right:13px;
+	border-right: 1px solid black;
+}
+.title_more{
+	display:inline-block;
+	padding-left:9px;
+}
+.text{
+	width:562px;
+	height:225px;
+	background-color:#F2F2F2;
+
+}
+.text a{
+	color:#3D58A6;
+}
+
+.text_image .first{
+	width:102px;
+	
+	
+}
+.text_image .second{
+	width:84px;
+	
+	
+}
+.more_text {
+	display:inline-block;
+	width:340px;
+	vertical-align:top;
+	font-size:20px;
+	color:#333333;
+}
+.information .first{
+	display:inline-block;
+	margin-right:85px;
+	
+
+}
+.information .second{
+	display:inline-block;
+	vertical-align:top;
+}
+.text_title{
+	margin-top:10px;
+	margin-bottom:20px;
+	margin-left:20px;
+}
+.text_info{
+	height:145px;
+}
+.text_info .first{
+	margin-left:45px;
+	margin-right:53px;
+}
+.text_info .second{
+	margin-left:45px;
+	margin-right:88px;
+}
+
+.information img .first:{
+	height:145px;
+
+}
+.information img .second:{
+	height:127px;
+}
+
+.social {
+	margin-top:68px;
+}
+
+.social_li {
+	display:inline-block;
+}
+
+.social .first{
+	border-right:1px solid #363E97;
+	padding-right:25px;
+}
+.social .second{
+
+	padding-left:25px;
+}
+
+.contact_info{
+	padding-top:50px;
+}
+.contact_adress{
+	width:260px;
+	height:98px;
+	display:inline-block;
+	vertical-align:top;
+	margin-right:92px;
+}
+.contact_adress .contact{
+	font-size:20px;
+	font-family:'ninomtavruli';
+	color:#3D58A6;
+}
+
+.contact_adress .adress{
+	color:#808080;
+	font-size:16px;
+	display:inline-block;
+	font-family: 'ingiri';
+
+}
+
+.adress_span a{
+	color:#000000;
+	font-size:16px;
+}
+
+.contact_adress .mobile{
+	color:#808080;
+	font-size:16px;
+	display:inline-block;
+	font-family: 'ingiri';
+}
+
+.adress_span .mobile_info{
+	color:#000000;
+	font-size:16px;
+	font-family: 'ingiri';
+}
+.mail_info{
+	color:#808080;
+	font-size:16px;
+	font-family: 'ingiri';
+	
+}
+.mail-adress{
+	color:#000000;
+	font-size:16px;
+	font-family: 'ingiri';
+}
+
+.map_adress{
+	
+	display:inline-block;
+
+}
+
+
+
