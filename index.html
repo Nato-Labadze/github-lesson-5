@@ -2,20 +2,23 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="styles/reset.css">
-	<link rel="stylesheet" type="text/css" href="styles/css">
+	<link rel="stylesheet" type="text/css" href="styles/fonts.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<title>github-lesson-5</title>
 </head>
 <body>
 	<header>
 		<div class="container">
 			<nav>
-				<div>
+				<div class="main_logo">
 					<a href="#"><img class="nav_logo" src="images/HTML.svg" alt="logo"></a>
 				</div>
-				<ul>
-					<li><a class="nav_link" href="#">მთავარი</a></li>
-					<li><a class="nav_link" href="#">სიახლეები</a></li>
-					<li><a class="nav_link" href="contact.html">კონტაქტი</a></li>
+				<ul class="nav_bar">
+					<li class="nav_bar_li"><a class="nav_link active" href="index.html">მთავარი</a></li>
+					<li class="nav_bar_li more"><a class="nav_link" href="#">სიახლეები</a></li>
+					<li class="nav_bar_li"><a class="nav_link" href="contact.html">კონტაქტი</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -23,23 +26,29 @@
 	<section>
 		<div class="container">
 			<article>
-				<div>
+				<div class="photo">
 					<img src="images/main_photo.png" alt="main_photo">
 				</div>
-				<div>
-					<h1>FEATURED<h1><span></span><h2>view all featured media</h1>
+				<div class="main_title">
+					<h1 class="title">FEATURED</h1><span class="title_span"></span><h2 class="title_more">view all featured media</h2>
 				</div>
-				<div class="text">
-					<h3><a href="#">RESPONSIVE WEB DESIGN</a></h3>
-					<img src="images/resp_design.svg" alt="responsive-design">
-					<p>approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation.</p>
+				<div class="information">
+					<div class="text first">
+						<h3 class="text_title"><a href="#">RESPONSIVE WEB DESIGN</a></h3>
+						<div class="text_info">
+							<img class="text_img first" src="images/resp_design.svg" alt="responsive-design">
+							<p class="more_text">approach that suggests that design and development should respond to the user's behavior and environment based on screen size, platform and orientation</p>
+						</div>
+					</div>
+					<div class="text second">
+						<h3 class="text_title"><a class="title_link" href="#">APP DEVELOPMENT</a></h3>
+						<div class="text_info">
+							<img class="text_img second" src="images/app_dev.svg" alt="app_development">
+							<p class="more_text">Mobile application development is the process of making or creating a mobile application to run on various mobile platforms. A mobile platform is a mobile operating system.</p>
+						</div>
+					</div>
 				</div>
-				<div>
-					<h3><a href="#">APP DEVELOPMENT</a></h3>
-					<img src="images/app_dev.svg" alt="app_development">
-					<p>Mobile application development is the process of making or creating a mobile application to run on various mobile platforms. A mobile platform is a mobile operating system.</p>
-					
-				</div>
+				
 			</article>
 		</div>
 	</section>
@@ -47,8 +56,8 @@
 		<div class="container">
 			<div class="social">
 				<ul>
-					<li><a class="social_link" href="https://www.facebook.com"><img src="images/FB.svg" alt="facebook"></a></li>
-					<li><a class="social_link" href="https://www.youtube.com/watch?v=PFmuCDHHpwk"><img src="images/youtube.svg" alt="youtube"></a></li>
+					<li class="social_li first"><a class="social_link" href="https://www.facebook.com"><img src="images/FB.svg" alt="facebook"></a></li>
+					<li class="social_li second"><a class="social_link" href="https://www.youtube.com/watch?v=PFmuCDHHpwk"><img src="images/youtube.svg" alt="youtube"></a></li>
 				</ul>
 			</div>
 		</div>
